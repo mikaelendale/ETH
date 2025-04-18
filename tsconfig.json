@@ -7,7 +7,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@tailus-ui/*": ["/components/tailus-ui/*"],
+      "@lib/*": ["/lib/*"],
+      "@utils/*": ["./src/lib/utils/*"]
     }
   }
 }
